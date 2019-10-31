@@ -1,0 +1,17 @@
+*{
+	padding: 2px 2px 2px 2px;
+	margin: 0;
+}
+body{
+	background-color: #FFFFF0;	
+}		/* 大背景 */
+#title_report,#jubao{
+	text-align: center;
+}
+#title_report{
+	font-size: 41px;
+	min-width: 100px;
+}
+#jubao{
+	font-size: 25px;
+}

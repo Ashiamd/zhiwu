@@ -1,0 +1,72 @@
+﻿/*      ------------------   图片html搬运css-------------------         */
+#blue_frame{
+	position: absolute;
+	top:-44px;
+	left:-49px; 
+	z-index: 1;
+}	/* 蓝色块的木头框 */ 
+/* --------------     图书推荐的部分    ----------------*/
+#book_recommend_title> img{
+	position:absolute; 
+	left: 30px;
+}	/* 左上角的 图书推荐的 标志 */
+#book_recommend_picture> img{
+	position: absolute;
+	width: 100px;
+	height: 135px;
+	z-index: 1;
+}	/* 每本书相同的属性部分 */
+.book_a{
+	left: 75px;
+	top: 100px;
+}	/* 书本_1_a的位置 下面3个同理 */
+.book_b{
+	left: 475px;
+	top: 100px;
+}
+.book_c{
+	left: 75px;
+	top: 270px;
+}
+.book_d{
+	left: 475px;
+	top: 270px;
+}
+#book_recommend_information>p{
+	font-size: 17px;
+	color: black;
+	position: absolute;
+	z-index: 1; 
+}	/* 每本书相同的文字属性 */
+.book_A{
+	left: 190px;
+	top: 100px;
+}	/* 这个以及下面4个分别4本书的文字描述 */
+.book_B{
+	left: 590px;
+	top: 100px;
+}
+.book_C{
+	left: 190px;
+	top: 270px;
+}
+.book_D{
+	left: 590px;
+	top: 270px;
+}
+#page_change{
+	position: absolute;
+	z-index: 1;
+	display: inline-flex;
+	text-align:center;	
+	left: 268px;
+	top: 428px;
+}	/* 页码切换按钮的共同属性 */
+.up_page,.down_page,.page_1,.page_2,.page_3,.page_4{
+	margin: 8px 8px 8px 8px;
+	background-color: white;
+	border:1px solid;
+	border-color:#F0FFF0; 
+	cursor: pointer;
+	padding: 10px;
+}

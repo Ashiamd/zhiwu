@@ -1,0 +1,18 @@
+$(document).ready(function(){
+	$("#tab-1").click(function(){
+		$("#watermelon_video").attr("src","");
+		$("#watermelon_video").css("displacy","none");
+	});
+	$("#tab-2").click(function(){
+		$("#watermelon_video").attr("src","https://v.qq.com/iframe/player.html?vid=t01293jzi8l&tiny=0&auto=0");
+		$("#watermelon_video").css("displacy","block");
+	});
+	$("#tab-3").click(function(){
+		$("#watermelon_video").attr("src","");
+		$("#watermelon_video").css("displacy","none");
+	});
+	$("#tab-4").click(function(){
+		$("#watermelon_video").attr("src","");
+		$("#watermelon_video").css("displacy","none");
+	});
+});

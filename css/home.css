@@ -1,0 +1,144 @@
+﻿#repeating_body>.body_home img{			
+	width:250px;
+	border-radius: 30px;
+	height: 250px;
+	margin: 154px 0px 0px 0px;
+}/* home下面按钮 */
+/*      ------------------   图片html搬运css-------------------         */
+#blue_frame{
+	position: absolute;
+	top:-44px;
+	left:-49px; 
+	z-index: 1;
+}	/* 蓝色块的木头框 */ 
+#repeating_body>.body_home>.body_home_title>img{
+	width: 200px;
+	height: 100px;
+	position: absolute;
+	top: -135px;
+	left: 360px;	
+}			/* 植物模拟培养 的 标题 */
+#fruit_button{
+	position: absolute; 
+	left: 35px; 
+	z-index: 1;
+}	/* 植物培养模拟 的 水果 按钮 */
+#vegetable_button{
+	position: absolute; 
+	left: 335px; 
+	z-index: 1;
+}	/* 植物培养模拟 的 蔬菜 按钮 */
+#flower_button{
+	position: absolute; 
+	left: 635px; 
+	z-index: 1;
+}	/* 植物培养模拟 的 花草 按钮 */
+/*-------------------  提示按钮  ------------------------*/
+#help>.help_buttom{
+	position:fixed;
+	z-index: 3;
+	right: 70px;
+	top: 400px;
+	width: 90px;
+	height: 90px;
+	background-color: lightblue;
+	font-size: 30px;
+	line-height: 86px;
+	text-indent: 16px;
+	opacity: 0.5;
+	border-radius: 20px;
+	cursor: pointer;
+}	/* help按钮 */
+#help_background{
+	background-color: #8F8F8F;/* #BABABA */
+	position:fixed;
+	z-index: 2;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0.5;
+}
+.help_1,.help_2,.help_3{
+	padding: 20px 20px 20px 20px;
+	background-color: white;
+	border-radius: 20px;
+	z-index: 2;
+	position: absolute;
+	width: 200px;
+	font-size: 20px;
+}
+.triangle_1,.triangle_2,.triangle_3{
+	position: absolute;
+	z-index: 2;/*2*/
+	border-style: solid;
+}
+.triangle_1{
+	top:399px;
+	left: 341px;
+    border-width: 101px 9px 0px 52px;
+    border-color: white transparent transparent transparent;
+}
+.help_1{
+	top:320px;
+	left: 180px;
+}
+.triangle_2{
+	top:423px;
+	left: 642px;
+    border-width: 108px 11px 79px 48px;
+    border-color: transparent transparent white transparent;
+}
+.help_2{
+	top:600px;
+	left: 507px;
+}
+.triangle_3{
+	top:379px;
+	left: 900px;
+    border-width: 85px 5px 0px 53px;
+    border-color: white transparent transparent transparent;
+}
+.help_3{
+	top:280px;
+	left: 740px;
+}
+#help_background{
+	display: none;
+}
+#one,#two,#three{
+	display: none;
+}
+.change_1{
+	z-index: -1;
+}
+.change_2{
+	z-index: 0;
+}
+/*---------       为了网络索引我们方便做的东西        ------------*/
+#zhiwu-peiyang-moni,#goumai-tiaoxuan-xiaojiqiao,#shuji-tuijian,#shui-guo,#shu-cai,#hua-cao{
+	position: absolute;
+	opacity: 0;
+	z-index: -1;
+}
+#zhiwu-peiyang-moni{
+	left: 350px;
+}
+#goumai-tiaoxuan-xiaojiqiao{
+	left: 550px;
+}
+#shuji-tuijian{
+	left: 770px;
+}
+#shui-guo,#shu-cai,#hua-cao{
+	top:300px;
+}
+#shui-guo{
+	left: 100px;
+}
+#shu-cai{
+	left: 400px;
+}
+#hua-cao{
+	left: 780px;
+}

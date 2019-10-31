@@ -1,0 +1,149 @@
+﻿#repeating_body>.body_home img{			
+	width:250px;
+	border-radius: 30px;
+	height: 250px;
+	margin: 154px 0px 0px 0px;
+}/* home下面按钮 */
+/*      ------------------   图片html搬运css-------------------         */
+#blue_frame{
+	position: absolute;
+	top:-44px;
+	left:-49px; 
+	z-index: 1;
+}	/* 蓝色块的木头框 */ 
+/*--------------        生长模拟的区域          ------------------*/
+#cactus_develop div{
+	border-radius: 20px;
+}/*每个的共同属性*/
+#cactus_develop>.develop_situation img{
+	top:-134px;
+	width: 360px;
+	height: 460px;
+	position: absolute;
+	z-index: 1;
+	left: 36px;
+}	/* 生长模拟的图片 */
+#cactus_develop>.develop_title{
+	top:15px;
+	width: 200px;
+	height: 60px;
+	position: absolute;
+	z-index: 1;
+	left: 375px;
+	font-size: 50px;
+	text-indent :25px;
+	padding-bottom: 12px;
+}	/*  植物具体是什么的 好看文字标题  */
+#cactus_develop>.develop_select{
+	top:50px;
+	width: 320px;
+	height: 420px;
+	right: 40px;
+	position: absolute;
+	z-index: 1;
+	background-color: #EEEE00;
+}	/*  右边的选择题,文字描述什么的  */
+#cactus_develop>.develop_select>.problem,.answer{
+	margin:5px 0 0 3px;
+	padding: 6px 6px 0 6px;
+	border-radius: 20px;
+	width: 300px;
+	height: 100px;
+	background: white;
+}	/* 问题和选项的共同属性 */
+#cactus_develop>.develop_select>.problem{
+	text-indent :10%;
+	letter-spacing:1px;
+}	/* 问题的属性 */
+#cactus_develop>.develop_select>.answer{
+	margin-top: 10px;
+	height: 280px;
+	line-height: 45px;
+}	/* 选项的属性 */
+.answer_1,.answer_2,.answer_3,.answer_4{
+	width: 260px;
+	height: 50px;
+	padding:2px 5px 0 10px;
+	background-color: #7CCD7C;
+	cursor: pointer;
+	display: block;
+}	/* 每个 按钮 的属性 */
+#answer_1{position: absolute;top:140px;}/*每个按钮的 父级 div*/
+#answer_2{position: absolute;top:203px;}
+#answer_3{position: absolute;top:267px;}
+#answer_4{position: absolute;top:332px;}
+#cactus_develop>.develop_back{
+	bottom:25px;
+	width: 150px;
+	height: 60px;
+	position: absolute;
+	z-index: 2;
+	left: 400px;
+	background-color: #E0FFFF;
+	font-size: 30px;
+	text-indent: 3%;
+	line-height: 55px;
+	border-radius: 20px;
+	cursor: pointer;
+	-webkit-user-select: none;
+}	/* 返回上一题的按钮 */
+.change{
+	margin: 4px 0px 10px 12px;
+	width: 260px;
+	height: 50px;
+	padding:10px 5px 0 10px;
+	background-color: yellow;
+	cursor: pointer;
+	transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}	/* 鼠标移动上去的时候 选择题 按钮变色 */
+.blank{
+	display: none;
+}	/* 判断题只有2个选项.所以隐藏3-4选项 */
+#answer_1,#answer_2,#answer_3,#answer_4{
+	padding: 5px 5px 5px 5px;
+}	/* 每个 按钮 的属性 */
+#fence_1,#fence_3{
+	height: 280px;
+	position: absolute;
+	z-index: 2;
+}/* 空气墙 */
+#fence_2,#fence_4,#fence_5,#fence_6{
+	width: 300px;
+	position: absolute;
+	z-index: 2;
+}
+#fence_1{
+	width: 17px;
+}
+#fence_2{
+	width: 300px;
+	height: 20px;
+}
+#fence_3{
+	width: 14px;
+	right: 20px;
+}
+#fence_4{
+	height: 10px;
+	right: 20px;
+	top:201px;
+}
+#fence_5{
+	height: 10px;
+	right: 20px;
+	top:265px;
+}
+#fence_6{
+	height: 10px;
+	right: 20px;
+	top:330px;
+}
+/*-------------  动图插入  -----------------*/
+.sun_moon{
+	position: fixed;
+	display: block;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 5;
+}

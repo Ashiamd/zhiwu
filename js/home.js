@@ -1,0 +1,16 @@
+$(document).ready(function(){
+	$("#help").hover(function(){
+		$("#repeating_body,.body_home").addClass("change_1");
+		$("#blue_frame").addClass("change_2");
+		$("#help_background").fadeToggle(100,function(){
+			$("#one").fadeToggle(150,function(){
+				$("#two").fadeToggle(200,function(){
+					$("#three").fadeToggle(250,function(){
+						$("#repeating_body,.body_home").removeClass("change_1");
+						$("#blue_frame").removeClass("change_2");
+					});
+				});
+			});
+		});
+	});
+});/*js的结尾*/

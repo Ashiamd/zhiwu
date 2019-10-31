@@ -1,0 +1,46 @@
+﻿/*      ------------------   图片html搬运css-------------------         */
+#blue_frame{
+	position: absolute;
+	top:-44px;
+	left:-49px; 
+	z-index: 1;
+}	/* 蓝色块的木头框 */ 
+#article_words_vegetable{
+	position: relative;
+	width: 250px;
+	height: 100px;
+	border-radius: 20px;
+	margin: 10px 0px 0px 50px;
+}/*艺术字*/
+#potato_button{
+	width:100px;
+	height: 100px;
+	margin: 10px 0px 0px 50px;
+	position: relative;
+	z-index: 5;
+	border-radius: 20px;
+}/*土豆图片*/
+#green_vegetable_button{
+	width:100px;
+	height: 100px;
+	margin: 10px 0px 0px 50px;
+	position: relative;
+	z-index: 5;
+	border-radius: 20px;
+}/*青菜图片*/
+#tomato_button{
+	width:100px;
+	height: 100px;
+	margin: 10px 0px 0px 50px;
+	position: relative;
+	z-index: 5;
+	border-radius: 20px;
+}/*番茄图片*/
+#and_so_on{
+	width:100px;
+	height: 100px;
+	margin: 10px 0px 0px 50px;
+	position: relative;
+	z-index: 5;
+	border-radius: 20px;
+}/*尽情期待*/
